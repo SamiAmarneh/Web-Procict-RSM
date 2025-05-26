@@ -67,6 +67,29 @@ img {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px var(--shadow-hover);
 }
+/* About Section */
+.about-us .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-visual {
+    flex: 1;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-content h2 {
+    text-align: left;
+}
+
+.about-content h2:after {
+    left: 0;
+    transform: none;
+}
 
 /* Promo Banner Section */
 .promo-banner {
