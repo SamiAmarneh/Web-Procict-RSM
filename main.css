@@ -37,6 +37,9 @@ h1, h2, h3, h4 {
     color: var(--color-secondary);
     margin-bottom: 15px;
 }
+p {
+    margin-bottom: 15px;
+}
 
 /* Promo Banner Section */
 .promo-banner {
