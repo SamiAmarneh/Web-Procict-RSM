@@ -28,7 +28,77 @@ body {
     color: var(--color-text);
     background-color: var(--color-background);
 }
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
+h1, h2, h3, h4 {
+    color: var(--color-secondary);
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-secondary);
+    transition: all 0.3s ease;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.primary-btn {
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: black;
+    padding: 6px 12px;
+    border-radius: 1px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background-color: #008b8b;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px var(--shadow-hover);
+}
+
+.btn-small {
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 2px 4px;
+    border-radius: 1px;
+    font-size: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-small:hover {
+    background-color: #008b8b;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    position: relative;
+}
 /* Promo Banner Section */
 .promo-banner {
    background-color: var(--section-bg);
@@ -227,4 +297,57 @@ footer {
 .footer-bottom a:hover {
     text-decoration: underline;
 }
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .wrapper {
+        padding: 0 30px;
+    }
+    
+}
+
+@media (max-width: 992px) {
+
+    .about-us .wrapper {
+        flex-direction: column;
+    }
+
+   
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 50px 0;
+    }
+
+}
+
+@media (max-width: 576px) {
+    
+
+   
+
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .footer-columns {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-contact p {
+        justify-content: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .newsletter-form {
+        max-width: 300px;
+        margin: 15px auto 0;
+    }
+}
+
 
