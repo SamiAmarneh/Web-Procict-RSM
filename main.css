@@ -53,3 +53,7 @@ body {
     top:6.5rem;
     right: 3.1rem;
 }
+.promo-content {
+    position: relative;
+    z-index: 2;
+}
