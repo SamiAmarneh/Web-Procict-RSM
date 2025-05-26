@@ -45,6 +45,9 @@ a {
     color: var(--color-secondary);
     transition: all 0.3s ease;
 }
+ul {
+    list-style: none;
+}
 
 /* Promo Banner Section */
 .promo-banner {
