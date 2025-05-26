@@ -57,3 +57,7 @@ body {
     position: relative;
     z-index: 2;
 }
+/* Blog Section */
+.blog-posts {
+    padding: 5rem 0;
+}
