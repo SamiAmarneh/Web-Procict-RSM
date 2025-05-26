@@ -364,7 +364,10 @@ h2 {
         grid-template-columns: 1fr;
     }
 
-   
+    h2 {
+        font-size: 28px;
+    }
+
 
 
 }
