@@ -44,3 +44,12 @@ body {
     justify-content: center;
     min-height: 100%;
 }
+
+.promo-banner .wrapper{
+     position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    top:6.5rem;
+    right: 3.1rem;
+}
