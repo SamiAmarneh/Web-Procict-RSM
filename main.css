@@ -123,3 +123,11 @@ body {
     color: var(--color-primary);  
    
 }
+/* Footer */
+footer {
+    background-color: var(--color-footer);
+    color: var(--color-footer-text);
+    padding: 50px 0 20px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
