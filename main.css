@@ -62,6 +62,11 @@ img {
     border: none;
     cursor: pointer;
 }
+.primary-btn:hover {
+    background-color: #008b8b;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px var(--shadow-hover);
+}
 
 /* Promo Banner Section */
 .promo-banner {
