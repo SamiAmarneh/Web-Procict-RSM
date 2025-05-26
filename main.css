@@ -21,8 +21,6 @@
     --shadow-hover: rgba(0, 123, 255, 0.3);
     --section-alt: #f9f9f9;
 }
-
-
 body {
     line-height: 1.6;
     color: var(--color-text);
