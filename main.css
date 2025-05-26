@@ -28,30 +28,7 @@ body {
     color: var(--color-text);
     background-color: var(--color-background);
 }
-.wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-h1, h2, h3, h4 {
-    color: var(--color-secondary);
-    margin-bottom: 15px;
-}
-p {
-    margin-bottom: 15px;
-}
-a {
-    text-decoration: none;
-    color: var(--color-secondary);
-    transition: all 0.3s ease;
-}
-ul {
-    list-style: none;
-}
-img {
-    max-width: 100%;
-    height: auto;
-}
+
 .primary-btn {
     display: inline-block;
     background-color: var(--color-primary);
