@@ -40,6 +40,11 @@ h1, h2, h3, h4 {
 p {
     margin-bottom: 15px;
 }
+a {
+    text-decoration: none;
+    color: var(--color-secondary);
+    transition: all 0.3s ease;
+}
 
 /* Promo Banner Section */
 .promo-banner {
