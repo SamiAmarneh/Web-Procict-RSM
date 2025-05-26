@@ -137,3 +137,9 @@ footer {
     gap: 30px;
     margin-bottom: 40px;
 }
+.footer-about img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
