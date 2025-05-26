@@ -93,3 +93,16 @@ body {
 .post-content {
      padding: 1.25rem; 
 }
+
+.post-content h4 {
+    font-size: 1.125rem;
+  margin-bottom: 0.625rem; 
+  color: var(--primary-color); 
+  font-weight: bold;
+}
+.post-content p{
+   font-size: 0.875rem; 
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 1rem; 
+}
