@@ -179,3 +179,19 @@ footer {
     width: 1.1em;
     text-align: center;
 }
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: var(--color-footer-text);
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: var(--color-primary);
+}
