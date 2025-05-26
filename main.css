@@ -162,3 +162,20 @@ footer {
     text-decoration: none;
     transition: color 0.3s ease;
 }
+.footer-nav ul li a:hover {
+    color: var(--color-primary);
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: var(--color-footer-text);
+}
+
+.footer-contact p i {
+    margin-right: 10px;
+    color: #000000;
+    width: 1.1em;
+    text-align: center;
+}
