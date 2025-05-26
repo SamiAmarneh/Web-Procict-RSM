@@ -52,6 +52,16 @@ img {
     max-width: 100%;
     height: auto;
 }
+.primary-btn {
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 1px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
 
 /* Promo Banner Section */
 .promo-banner {
