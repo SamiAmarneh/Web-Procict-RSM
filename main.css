@@ -48,6 +48,10 @@ a {
 ul {
     list-style: none;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* Promo Banner Section */
 .promo-banner {
